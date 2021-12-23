@@ -48,6 +48,7 @@ console.log(getInvertValue(arr))
 * Belarusian Institute of Law. Faculty: Economic and jurisprudence. Qualification: Accountant.
 * JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress).
 * Self-education (in progress). 
+
 ***
 ## Languages:
 * ![](https://str.by/cert-web/uploads/certificates/4AD13CCE490326F5D967F423E9E5BA84.jpg)
