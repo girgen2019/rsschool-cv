@@ -53,7 +53,7 @@ console.log(getInvertValue(arr))
 
 
 ## Languages:
-* ![](https://str.by/cert-web/uploads/certificates/4AD13CCE490326F5D967F423E9E5BA84.jpg)
-English - Pre-Intermediate/Intermediate
 * Russian - Native
+* English - Pre-Intermediate/Intermediate
+![](https://str.by/cert-web/uploads/certificates/4AD13CCE490326F5D967F423E9E5BA84.jpg)
 
