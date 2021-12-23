@@ -12,3 +12,30 @@ I am purposeful and easy to learn. I am ready to bring any business to an effect
 
 I believe in myself and in my ability to learn and acquire new skills that will guide me along this path and become an experienced front-end developer. 
 ***
+## Skills and knowledge:
+
+*   HTML
+*    CSS (Framework Bootstrap, Preprocessor SCSS, BEM methodology).
+*   JavaScript (Fundamentals,Functional Programming, Object Oriented Programming, Asynchronous JavaScript, ES6+,DOM),JSON.
+*   React JS, Redux (basic level knowledge).
+*   Version control: Git (remote service GitHub).
+*   Figma(for web development)
+*   Editors: Sublime, VSCode.
+*   The theory of Agile methodology.
+***
+## Code examples
+```
+let arr = [-1,2, 4,-5]
+function getInvertValue(array){
+    let arr = []
+    array.map((value) => {
+        if(value){
+           arr.push(-value)
+        }else if( -value){
+            arr.push(value)
+        }
+    })
+    return arr
+}
+console.log(getInvertValue(arr))
+```
