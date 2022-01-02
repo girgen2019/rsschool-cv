@@ -2,6 +2,7 @@
 
 body {
   font-family: "Dosis", sans-serif;
+  margin: 0;
 }
 
 hr {
@@ -19,10 +20,44 @@ hr {
 }
 
 .container {
-  margin-left: 5%;
+  /* margin-left: 0.5%; */
   width: 100%;
-  ;
+  background-color: #e0e2e6;
+  border-left-width: 1px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-left-style: solid;
 }
+
+/* Nav */
+.nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding-left: 0;
+  margin: auto;
+  font-family: "Dosis", sans-serif;
+  background-color: #989e647c;
+
+
+}
+
+.nav-top {
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.nav-top-link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+
+}
+
+/* End of Nav */
 
 /* HEADER */
 
@@ -31,7 +66,7 @@ hr {
   width: 30vh;
   min-width: 380px;
   max-width: 500px;
-  height: 170vh;
+  height: 100;
 }
 .cv-contact-info {
   margin-left: 11vh;
@@ -45,6 +80,7 @@ hr {
 }
 .cv-contact-info1 {
   list-style-type: none;
+  padding-bottom: 40px;
 }
 .tel-cv {
     width: 20px;
@@ -95,8 +131,39 @@ hr {
   padding: 100vh;
   font-size: 16px;
 }
-
-
+.cv-code-style{
+  padding-top: 40px;
+  margin-left: 18vh;
+}
+.cv-code-style-info1{
+  /* display: flex;
+justify-content: flex-start;
+align-items: baseline; */
+color: #D3D4DA;
+margin: 10px 0 20px;
+padding: 15px 15px;
+background-color: #000000;
+border-bottom: 1px solid var(--text-color);
+}
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: .5em;
+  background: #000;
+  color: #f8f8f8;
+}
+.hljs-keyword, .hljs-selector-tag, .hljs-type {
+  color: #e28964;
+}
+.js-params{
+  color: rgb(127, 201, 243);
+}
+.hljs-built_in {
+  color: #65b042;
+}
+.js-func{
+  color:rgb(250, 248, 133)
+}
 .cv-profile-photo {
   margin-top: 5vh;
   margin-left: auto;
@@ -123,11 +190,14 @@ hr {
   font-size: 60px;
   margin: 5% 0 0;
   padding: 0;
+  padding-left: 40px;
 }
 
 .cv-name-element-subheader {
-  margin: 2% 0;
+  margin: 5px 0;
+  margin-bottom: 20px;
   padding: 0;
+  padding-left: 40px;
 }
 
 .cv-skills-title {
@@ -203,7 +273,9 @@ hr {
     list-style-type: none;
     line-height: 20px;
 }
-
+.img-certificate{
+padding-top: 10px;
+}
 .row {
   display: flex;
 }
@@ -214,4 +286,33 @@ hr {
 
 .col-3 {
   flex: 100%;
+}
+.footer{
+  /* max-width: 1170px; */
+  /* margin-left: 169px; */
+  background-color: #989e647c;
+padding-bottom: 15px;
+}
+
+.footer-main{
+  width: 800px;
+  margin: 0 auto;
+}
+.container-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-family: "Dosis", sans-serif;
+  height: 35px;
+}
+.footer-left{
+  margin-left: 0px;
+}
+.footer-center{
+  font-size: 25px;
+
+} 
+.footer-right{
+  text-align: left;
 }

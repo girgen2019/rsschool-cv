@@ -10,129 +10,171 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+            <ul class="nav" style="margin-top: 0px;padding-top: 20px;padding-bottom: 20px;">
+                <li class="nav-top"><a class="nav-top-link" href="#t1">Contact information</a></li>
+                <li class="nav-top"><a class="nav-top-link" href="#t2">About me</a></li>
+                <li class="nav-top"><a class="nav-top-link" href="#t3">Skills</a></li>
+                <li class="nav-top"><a class="nav-top-link" href="#t4">Education</a></li>
+                <li class="nav-top"><a class="nav-top-link" href="#t5">Code style</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
     <div class="flex-container">
-
-             <header class="cv-header">
+        <header class="cv-header">
             <div>
-                <img class="cv-profile-photo" src="/CV HTML CSS/img/Foto/ImageAvatar.jpg" alt="foto"
-                    srcset="">
+                <img class="cv-profile-photo" src="/img/Foto/ImageAvatar.jpg" alt="foto">
             </div>
-<!-- Contacts -->
+            <!-- Contacts -->
             <div class="cv-contact">
-                <h4 class = "cv-contact-info">Contact information</h4>
-                <ul class = "cv-contact-info1">
-                    <li class ="li-tel">
-                        <img class ="tel-cv" src="/CV HTML CSS/img/Contacts/phone.svg"><a class="tel-text" href="tel:+375 29 1696793">+375 29 1696793</a>
+                <h4 class="cv-contact-info" id="t1">Contact information</h4>
+                <ul class="cv-contact-info1">
+                    <li class="li-tel">
+                        <img class="tel-cv" src="/img/Contacts/phone.svg" alt="phone"><a class="tel-text"
+                            href="tel:+375291696793">+375 29 1696793</a>
                     </li>
                     <li class="li-telegramm">
-                        <img class ="telegramm-cv" src="/CV HTML CSS/img/Contacts/Telegram - Original.svg"><a class = "telegramm-text" href="https://t.me/Gir_raf" >Gir_raf</a>
+                        <img class="telegramm-cv" src="/img/Contacts/telegramm.svg" alt="telegramm"><a
+                            class="telegramm-text" href="https://t.me/Gir_raf">Gir_raf</a>
                     </li>
                     <li class="li-gmail">
-                        <img class ="gmail-cv" src="/CV HTML CSS/img/Contacts/Google - Original.svg"><a class = "gmail-text" href="https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser" >Gir.gen2019@gmail.com</a>
-                        
+                        <img class="gmail-cv" src="/img/Contacts/gmail.svg" alt="mail"><a class="gmail-text"
+                            href="https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser">Gir.gen2019@gmail.com</a>
+
                     </li>
                 </ul>
+                <hr style="background-color: #000000; height: 1px; width: 100%;">
+                <h4 class="cv-code-style" id="t5">Code style</h4>
+                <div class="cv-code-style-info1">
+                    
+                    <span class="hljs-keyword">const</span> <span class="js-func">getInvertValue</span> =<span class="hljs-function">(<span class="js-params">array</span>)=&gt;</span>{
+                       <br>let newArray = [ ]
+                       <br><span class="hljs-keyword">if</span>
+                         (!
+                         <span class="hljs-built_in">Array</span>
+                         .<span class="js-func">isArray</span><span class="js-params">(array)</span>
+                          <br><span class="hljs-keyword">return</span>
+                           <span class="hljs-literal">false</span>
+                        <br><span class="hljs-keyword">return</span> array
+                        <br>.<span class="js-func">map</span>(<span class="hljs-function"><span class="js-params">item</span> =&gt;</span> {<br>
+                            if <span class="js-params">(item)</span> <span
+                            class="hljs-number">{<br></span>arr.<span class="js-func">push</span><span class="js-params">(-item)</span><br>} else if <span class="js-params">(- item)</span> {<br> 
+                                arr.<span class="js-func">push</span><span class="js-params">(item)</span> }<br>return <span class="js-params">newArray</span><br>})
+                        }
+                    </div>
             </div>
-<!-- End of contacts --> 
+          
         </header>
-        
-        
-
+  
         <div class="container">
-<!-- Name -->
+            <!-- Name -->
             <div>
                 <h1 class="cv-name-element">Henadzi Hirylovich</h1>
                 <h5 class="cv-name-element-subheader">Junior Frontend Developer</h5>
-                <hr style="background-color: #000000; height: 3px; width: 100%;">
+                <hr style="background-color: #000000; height: 1px; width: 100%;">
             </div>
-<!-- END of name -->
+            <!-- END of name -->
 
-<!-- Skills -->
+            <!-- Skills -->
             <div>
                 <div>
-                    <h5 class="cv-skills-title"><a href="#">About me:</a></h5>
+                    <h5 class="cv-skills-title" id="t2"><a href="#">About me</a></h5>
                     <div class="row">
                         <div class="column">
                             <ul class="cv-about-me">
-                                <li>I am interested in web development because it is an opportunity for my development as a specialist, 
-                                    personality and an example of how you can change and develop your professional life. Web development offers 
-                                    limitless opportunities for professional growth, with many free, high-quality self-education resources and a 
+                                <li>I am interested in web development because it is an opportunity for my development
+                                    as a specialist,
+                                    personality and an example of how you can change and develop your professional life.
+                                    Web development offers
+                                    limitless opportunities for professional growth, with many free, high-quality
+                                    self-education resources and a
                                     large developer community.</li>
-                                <li><p>I am purposeful and easy to learn. I am ready to bring any business to an effective result. I easily maintain
-                                    business and professional contacts.</p></li>
-                                <li>I believe in myself and in my ability to learn and acquire new skills that will guide me along 
+                                <li>
+                                    <p>I am purposeful and easy to learn. I am ready to bring any business to an
+                                        effective result. I easily maintain
+                                        business and professional contacts.</p>
+                                </li>
+                                <li>I believe in myself and in my ability to learn and acquire new skills that will
+                                    guide me along
                                     this path and become an experienced front-end developer. </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <h5 class="cv-skills-title"><a href="#">Skills</a></h5>
+                <h5 class="cv-skills-title" id="t3"><a href="#">Skills</a></h5>
                 <div class="row">
                     <div class="column-skills">
                         <ul class="cv-skills">
                             <li>1. HTML</li>
-                            <li>2. CSS (Framework Bootstrap, Preprocessor SCSS, BEM methodology).</li>
-                            <li>3. JavaScript (Fundamentals,Functional Programming, Object Oriented Programming, Asynchronous JavaScript, ES6+,DOM),JSON.</li>
-                            <li>4. React JS, Redux (basic level knowledge).</li>
-                            <li>5. Version control: Git (remote service GitHub).</li>
-                            <li>6. Figma(for web development).</li>
-                            <li>7. Editors: VSCode, Sublime.</li>
-                            <li>8. The theory of Agile methodology.</li>
+                            <li>2. CSS (Framework Bootstrap, Preprocessor SCSS, BEM methodology)</li>
+                            <li>3. JavaScript (Fundamentals,Functional Programming, Object Oriented Programming,
+                                Asynchronous JavaScript, ES6+,DOM),JSON</li>
+                            <li>4. React JS, Redux (basic level knowledge)</li>
+                            <li>5. Version control: Git (remote service GitHub)</li>
+                            <li>6. Figma(for web development)</li>
+                            <li>7. Editors: VSCode, Sublime</li>
+                            <li>8. The theory of Agile methodology</li>
+                            <li>9. English level - Pre-Intermediate</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-<!-- END of Skills -->
+            <!-- END of Skills -->
 
-<!-- Education -->
+            <!-- Education -->
             <div>
-                <h5 class="cv-skills-title"><a href="#">Education</a></h5>
+                <h5 class="cv-skills-title" id="t4"><a href="#">Education</a></h5>
                 <div class="row">
                     <div class="col-3">
                         <ul class="education">
-                            <li><span class="bold">Belarusian Institute of Law.  </span></li>
-                            <li>Title of Faculty: Economic and jurisprudence.</li>
-                            <li>Qualification: Accountant.</li>
-                            <li>Location: Minsk</li>
+                            <li><span class="bold">Belarusian Institute of Law </span></li>
+                            <li>Faculty of Economic and Jurisprudence</li>
+                            <li>Specialization: Accountant</li>
+                            <li>(2005-2009)</li>
                         </ul>
                     </div>
 
                     <div class="col-3">
                         <ul class="education">
-                            <li><span class="bold">September 2020 - till now</span></li>
-                            <li>JavaScript Manual on <a href="https://learn.javascript.ru/">https://learn.javascript.ru/</a> (in progress).</li>
-                            <li>Self-education (in progress)</li>
-                            <li>Location: Minsk</li>
+                            <li><span class="bold">Redev Education</span></li>
+                            <li>JavaScript React/Redux</li>
+                            <li>(Mar 2021 - Present)</li>
                         </ul>
                     </div>
-                 
-                </div>
-            </div>
 
-<!-- End of Education -->
-
-
-<!-- Languages -->
-            <div>
-                <h5 class="cv-skills-title"><a href="#">Languages - English</a></h5>
-                <div class="row">
                     <div class="col-3">
-                        <ul class="languages">
-                            <li class="img-certificate" ><img class="img-languages" src = "img/education/CERTIFICATE.jpg" alt="CERTIFICATE" style="width: 250px;height: 150px;"></li>
-                            <li></li>
+                        <ul class="education">
+                            <li><span class="bold">Streamline Language School</span></li>
+                            <li>IT English Course</li>
+                            <li>(Mar-Jun 2021)</li>
+                            <li class="img-certificate"><img class="img-languages" src="img/education/CERTIFICATE.jpg"
+                                alt="CERTIFICATE" style="width: 250px;height: 150px;"></li>
                         </ul>
                     </div>
-
                 </div>
             </div>
-
-<!-- End of Languages -->
-
-           
+    <!-- End of Education -->
         </div>
     </div>
+</main>    
+<!-- Footer -->
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="container-footer">
+                <p class="footer-left"><a href="https://rs.school/js/"><img class="img-rss"
+                            src="https://rs.school/images/rs_school.svg" alt="RSSchool"
+                            style="width:100px;height:100px;"></a> </p>
+                <p class="footer-center"> ©2021 </p>
+                <p class="footer-right"><a href="https://github.com/girgen2019"><img src="/img/Contacts/Github.svg"
+                            alt="GitHub" style="width:50px;height:100px;"></a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- End of footer -->
 </body>
 
 </html>
